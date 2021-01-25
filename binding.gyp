@@ -1,7 +1,7 @@
 {
   "targets": [
     {
-      "target_name": "bt_hid_Keyboard",
+      "target_name": "bt_hid_keyboard",
       "sources": [
         "src/hid.c",
         "main.cc" 
