@@ -1,5 +1,7 @@
-const { checkBTPedal } = require('bindings')('bt_hid_Keyboard')
+const { checkBTPedal } = require('bindings')('bt_hid_keyboard')
 
 module.exports = {
-    checkBTPedal
+    checkBTPedal: function() {
+        return checkBTPedal();
+    }
 } 
