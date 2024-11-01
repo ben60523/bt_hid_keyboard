@@ -9,10 +9,10 @@
     "node-addon-api": "^7.0.0"
   },
   "devDependencies": {
-    "node-gyp": "^9.4.0"
+    "node-gyp": "^10.2.0"
   },
   "scripts": {
-    "build": "node-gyp rebuild",
+    "build": "npx node-gyp rebuild",
     "test": "node test.js"
   },
   "gypfile": true
