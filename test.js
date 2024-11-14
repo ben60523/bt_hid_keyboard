@@ -1,6 +1,8 @@
 'use-strict'
 
-const { checkBTPedal } = require('./index')
+const { checkBTPedal, enumerateDevices } = require('./index')
+
+enumerateDevices();
 
 if (checkBTPedal()) {
     console.log('BT pedal found');

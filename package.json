@@ -13,6 +13,7 @@
   },
   "scripts": {
     "build": "npx node-gyp rebuild",
+    "config": "npx node-gyp configure -- -f compile_commands_json && cp build/Release/compile_commands.json .",
     "test": "node test.js"
   },
   "gypfile": true
